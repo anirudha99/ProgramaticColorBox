@@ -13,6 +13,9 @@
 		1CEB154C273E19C80049D604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CEB154A273E19C80049D604 /* Main.storyboard */; };
 		1CEB154E273E19CD0049D604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CEB154D273E19CD0049D604 /* Assets.xcassets */; };
 		1CEB1551273E19CD0049D604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CEB154F273E19CD0049D604 /* LaunchScreen.storyboard */; };
+		1CEB1559273E1A350049D604 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB1558273E1A350049D604 /* ColorViewController.swift */; };
+		1CEB155B273E1EFA0049D604 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB155A273E1EFA0049D604 /* CustomView.swift */; };
+		1CEB155D273E248A0049D604 /* CustomHorizontalStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEB155C273E248A0049D604 /* CustomHorizontalStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1CEB154D273E19CD0049D604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CEB1550273E19CD0049D604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CEB1552273E19CD0049D604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CEB1558273E1A350049D604 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		1CEB155A273E1EFA0049D604 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		1CEB155C273E248A0049D604 /* CustomHorizontalStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHorizontalStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				1CEB154D273E19CD0049D604 /* Assets.xcassets */,
 				1CEB154F273E19CD0049D604 /* LaunchScreen.storyboard */,
 				1CEB1552273E19CD0049D604 /* Info.plist */,
+				1CEB1558273E1A350049D604 /* ColorViewController.swift */,
+				1CEB155A273E1EFA0049D604 /* CustomView.swift */,
+				1CEB155C273E248A0049D604 /* CustomHorizontalStack.swift */,
 			);
 			path = ProgramaticColor;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CEB155B273E1EFA0049D604 /* CustomView.swift in Sources */,
+				1CEB155D273E248A0049D604 /* CustomHorizontalStack.swift in Sources */,
 				1CEB1549273E19C80049D604 /* ViewController.swift in Sources */,
 				1CEB1545273E19C80049D604 /* AppDelegate.swift in Sources */,
+				1CEB1559273E1A350049D604 /* ColorViewController.swift in Sources */,
 				1CEB1547273E19C80049D604 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
